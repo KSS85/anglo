@@ -26,4 +26,4 @@ Route::middleware([
     Route::get('/dashboard',\App\Http\Livewire\AdminPanel\Dashboard::class)->name('dashboard');
 });
 
-// Route::get('/admindashboard',\App\Http\Livewire\AdminPanel\Dashboard::class);
+Route::get('/signout',\App\Http\Livewire\Logincomponent::class)->name('signout');
